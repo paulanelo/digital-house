@@ -1,0 +1,45 @@
+body{
+    width: 100%;
+    font-family: Arial;
+}
+
+.header-align{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 20px 30px 58px;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+button{
+    width: 150px;
+    border: none;
+    background-color: #5E5AFF;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+li{
+    list-style: none;
+    background-color: #F2F2F2;
+    border-left: 18px solid;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 24px;
+    margin: 15px;
+
+}
+
+.task-done {
+    border-left: 18px solid #61A500;
+}
+
+.task-cancel {
+    border-left: 18px solid #CC424C;
+}
+
+.task-todo{
+    border-left: 18px solid #727272;
+}
+
