@@ -1,0 +1,164 @@
+body{
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    background-image: url(./projetoKitchening/images/bg-body.png);
+}
+
+/* logo e navbar */
+
+.imgLogo{
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 1% 0% 3% 50%;
+}
+
+.navHeader{
+    display: flex;
+    flex-direction:row;
+}
+
+.navHeader a{
+    text-decoration: none;
+    color: white;
+    background-color: #212121;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 1% ;
+    margin-left: 15px;
+}
+
+a{
+    text-align: center;
+}
+
+/* banner e pratos */
+
+.imagemBanner{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.pratosFirstRow, .pratosSecondRow{
+    display: flex;
+    flex-flow: row;
+    margin-top: 20px;
+}
+
+div{
+    margin-left: 30px;
+}
+
+.imgPratos{
+    width: 100%;
+}
+
+div h2{
+    font-weight: 700;
+
+}
+
+div button{
+    width: 20%;
+    background-color: #212121;
+    padding: 8px;
+    color: white;
+    font-size: 12px;
+    border: none;
+}
+
+/* footer */
+
+.navFooter{
+    background-color: red;
+    padding-top: 50px;
+    margin-top: 50px;
+padding-left: 30%;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navFooter a{
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+@media(max-width: 768px){
+    body{
+        width: 100vw;
+    }
+
+    .cabecalhoPrincipal{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .imgLogo{
+        margin-top: 15px;
+        margin-left: 20%;
+    }
+
+    .navHeader{
+        flex-direction: column;
+        margin-top: 4%;
+        margin-left: 25%;
+    }
+
+    .navHeader a{
+        width: 10vh;
+        text-transform: none;
+        border: 1px solid #212121;
+        font-size: 10px;
+    }
+
+    .containerHeader{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    div{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .pratosFirstRow, .pratosSecondRow{
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    h2{
+        font-size: 120%;
+    }
+
+    div button{
+        background-color: #212121;
+        margin: 3% 5% 3% 5%;
+        width: 100vw;
+        border: none;
+    }
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .navFooter{
+        flex-direction: column;
+        border-radius: 0;
+        width: 100vw;
+    }
+
+    .navFooter-link a{
+        border: 1px solid white;
+        
+    }
+
+}
