@@ -1,0 +1,24 @@
+div.caixa1{
+    background-color: orange;
+    border: 5px solid blueviolet;
+}
+
+div.caixa2{
+    background-color: blue;
+    border: 5px dotted goldenrod;
+}
+
+div.caixa3{
+    background-color: coral;
+    border: 5px double burlywood;
+}
+
+div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    /* margin: 30px 100px; 30px para cima e para baixo + 10px para as laterais */
+    margin: 30px; /* defino que a altura é 30px e a largura é automatica - um jeito fácil de centralizar elementos */
+    padding: 40px;
+}
+
