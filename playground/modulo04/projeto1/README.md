@@ -21,3 +21,11 @@ Bom trabalho!
 ### <section> porfólio
 
 - [ ] Botões de navegação da galeria
+
+
+### Pendências
+
+- [ ] Finalizar HTML
+- [ ] Finalizar CSS
+
+- [ ] Review do código
