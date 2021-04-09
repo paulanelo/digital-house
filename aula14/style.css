@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    margin: 20px auto;
+}
+
+.div30{
+    width: 30vh;
+    height: 50vh;
+    background-color: #22B573;
+}
+
+.div70{
+    width: 70vh;
+    height: 50vh;
+    background-color:#F15A24;
+}
+
+@media(max-width: 768px) {
+    .div30{
+        width: 0%;
+    }
+
+    .div70{
+        width: 100%;
+    }
+}
