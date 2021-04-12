@@ -1,0 +1,10 @@
+.meu-elemento {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+}
+ 
+.meu-elemento:hover {
+    transition-duration: 850ms;
+    border-radius: 50%;
+}
