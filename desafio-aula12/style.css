@@ -10,6 +10,7 @@ body{
     margin: 20px auto;
     box-sizing: border-box;
     background-image: url(./projetoKitchening/images/bg-body.png);
+
 }
 
 /* logo e navbar */
@@ -23,6 +24,7 @@ body{
 .navHeader{
     display: flex;
     flex-direction:row;
+    margin: 0;
 }
 
 .navHeader a{
@@ -54,7 +56,8 @@ a{
 }
 
 div{
-    margin-left: 30px;
+    margin: 0px 30px 0px 30px;
+    padding: 0 0 0 2%;
 }
 
 .imgPratos{
@@ -86,7 +89,7 @@ div button{
     background-color: red;
     padding-top: 50px;
     margin-top: 50px;
-    padding-left: 30%;
+    padding-left: 40%;
     border-top-right-radius: 18px;
     border-top-left-radius: 18px;
     display: flex;
@@ -98,10 +101,16 @@ div button{
     text-decoration: none;
     color: white;
     font-size: 16rem;
-    padding: 5px;
+    padding: 5px 10px 5px;
+    border-left: 1px solid #FFFFFF;
+    line-height: 25%;
 }
 
-@media(max-width: 768px){
+nav a:first-child{
+    border: none;
+}
+
+@media(max-width: 375px){
     body{
         width: 100vw;
     }
@@ -112,14 +121,12 @@ div button{
     }
 
     .imgLogo{
-        margin-top: 15px;
-        margin-left: 20%;
+        margin: 5% 0% 5% 32%;
     }
 
     .navHeader{
         flex-direction: column;
-        margin-top: 4%;
-        margin-left: 25%;
+        margin: 4% 36%;
     }
 
     .navHeader a{
@@ -133,6 +140,10 @@ div button{
         display: flex;
         flex-wrap: wrap;
 
+    }
+
+    .imagemBanner{
+        height: 26vh;
     }
 
     div{
@@ -174,5 +185,16 @@ div button{
     }
     .navFooter a{
         margin: 0 39% 11.5% 0;
+        border: none;
+    }
+}
+
+@media(max-width: 1024px){
+    .imgLogo{
+        margin: 1% 0% 3% 44%;
+    }
+
+    nav a:first-child{
+        border: none;
     }
 }
