@@ -10,13 +10,13 @@ body{
     font-family: 'Ropa Sans';
 }
 
+
 /* header */
 
 header{
     height: 6.3vh;
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: space-around;
     box-shadow: 0 2rem 10rem rgba(0, 0, 0, 0.25);
@@ -26,6 +26,7 @@ header{
     height: 25%;
     margin-left: 72.2%;
 }
+
 
 /* main - portfolio */
 
@@ -48,6 +49,7 @@ header{
     top: 27%;
     right:32%; 
 }
+
 
 /* style section */
 
@@ -79,7 +81,6 @@ h2{
     color: #FFFFFF;
     z-index: 1;
 }
-
 
 
 /* featured section */
@@ -147,6 +148,7 @@ h2{
     margin: -2% 6% 4% 0;
 }
 
+
 /* footer */
 
 footer{
@@ -167,7 +169,6 @@ footer{
     color: #FFFFFF;
     font-size: 12rem;
     font-family: 'Ropa Sans';
-
 }
 
 .contactInfo-details{
