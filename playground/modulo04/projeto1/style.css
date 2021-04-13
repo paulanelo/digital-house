@@ -49,6 +49,39 @@ header{
     right:32%; 
 }
 
+/* style section */
+
+h2{
+    font-size: 25rem;
+    font-weight: 400;
+    text-align: center;
+    color: #888888;
+    margin: 8% 0 0 0;
+}
+
+.industrial, .modern{
+    display: flex;
+    flex-direction: column;
+    width: 87.5%;
+    margin: 0 0 -2% 6%;
+}
+
+.industrial img, .modern img{
+    opacity: 0.5;
+}
+
+.industrial h3, .modern h3{
+    position: relative;
+    top: 55rem;
+    font-size: 25rem;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+
+
 /* featured section */
 
 .featured{
@@ -71,7 +104,6 @@ header{
     position: relative;
     left: 8%;
     top: 8%;
-
 }
 
 .button-new{
