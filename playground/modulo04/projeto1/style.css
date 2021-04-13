@@ -188,5 +188,32 @@ footer{
 }
 
 .contactInfo-socialMedia-buttons img{
-    margin-left: 1%;
+    margin-left: 5%;
+}
+
+/* media - responsividade */
+
+@media(min-width: 1903px){
+    
+    /* featured itemns */
+    
+    .backButton{
+        top: 24%;
+        left: 34.5%;
+    }
+
+    .forwardButton{
+        top: 24%;
+        right: 35%;
+    }
+
+    /* footer */
+
+    .contacInfo-details{
+        line-height: 26rem;
+    }
+
+    .contactInfo-socialMedia h3{
+        margin: 7% 0 0 0;
+    }
 }
