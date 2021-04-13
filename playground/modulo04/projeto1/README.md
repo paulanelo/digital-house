@@ -16,16 +16,16 @@ Bom trabalho!
 ## Pendências
 
 #### <header>
-- [ ] Shaddow da header.
+- [x] Shaddow da header.
 
 ### <section> porfólio
 
-- [ ] Botões de navegação da galeria
-
+- [x] Botões de navegação da galeria
 
 ### Pendências
 
-- [ ] Finalizar HTML
-- [ ] Finalizar CSS
+- [x] Finalizar HTML
+- [x] Finalizar CSS
+- [ ] Responsividade
 
 - [ ] Review do código
