@@ -152,6 +152,7 @@ h2{
 footer{
     width: 697px;
     height: 243px;
+    margin: 6% 0 0 0;
     background-color: #333333;
 
     display: flex;
@@ -172,10 +173,19 @@ footer{
 .contactInfo-details{
     font-size: 12rem;
     font-family: 'Ropa Sans';
-    margin: 49px, 45px, 99px 0px;
-    line-height: 13px;
+    margin: 49px, 45px, 100px 0px;
+    line-height: 30rem;
 }
 
-.contactInfo-details p{
-    line-height: 13rem;
+.contactInfo-socialMedia h3{
+    text-transform: uppercase;
+    margin: -4% 0 0 0;
+}
+
+.contactInfo-socialMedia-buttons{
+    margin: 5% 0 0 0;
+}
+
+.contactInfo-socialMedia-buttons img{
+    margin-left: 1%;
 }
