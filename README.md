@@ -1,5 +1,11 @@
-# Registro de aulas | Digital House
+# Desafio | Kitchening
 
-Repositório de arquivos criados no decorrer das aulas.
+O desafio era recriar a página inicial do Kitchening, à partir do wireframe compartilhado.
 
-A ideia é ter um lugar onde possa manter o registro da evolução dos conhecimentos técnicos adquiridos no decorrer do curso.
+O **plus** do desafio, é fazer com que esta página seja responsiva.
+
+## Pendências do desafio
+
+- [x] Desenvolvimento desktop.
+- [x] Responsividade.
+- [x] Revisão de código / melhoria.
